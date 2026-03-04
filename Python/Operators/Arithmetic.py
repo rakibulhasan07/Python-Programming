@@ -7,3 +7,14 @@ sum3 = sum2 + sum2   # 800 (400 + 400)
 print(sum1)
 print(sum2)
 print(sum3)
+
+x = 15
+y = 4
+
+print(x + y)
+print(x - y)
+print(x * y)
+print(x / y)
+print(x % y)
+print(x ** y)
+print(x // y)
