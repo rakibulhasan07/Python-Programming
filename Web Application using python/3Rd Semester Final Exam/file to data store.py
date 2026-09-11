@@ -1,0 +1,5 @@
+file = open('datafile.txt', 'w')
+data = input("Enter your data: ")
+file.write(str(data))
+file.close()
+print("Data stored successfully in 'datafile.txt'.")

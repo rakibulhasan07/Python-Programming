@@ -1,0 +1,13 @@
+import logging
+#### Logging-এর Output Formatting ও Configuration ব্যবহার করে প্রোগ্রাম
+logging.basicConfig(
+    filename='system_log.txt',
+    filemode='a',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
+
+#### Output
+logging.warning("This is a warning message.")
+logging.error("This is an error message.")
